@@ -1,0 +1,31 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MEDFORECAST_AUTH=1
+      - MEDFORECAST_COOKIE_SECURE=0
+      - MEDFORECAST_DEVICE=cpu
+    volumes:
+      - backend-data:/app/data
+      - backend-logs:/app/logs
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - MEDFORECAST_API=http://backend:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-data:
+  backend-logs:

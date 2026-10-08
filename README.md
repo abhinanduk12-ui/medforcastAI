@@ -128,3 +128,38 @@ total_amount, …` plus the *Medicine Master* sheet). Seasonal indices get much 
 
 On this machine, Windows Smart App Control blocks some compiled scikit-learn and LightGBM modules, so the pipeline
 uses XGBoost + PyTorch + NumPy and has no scikit-learn dependency.
+
+## Deployment
+
+### Option 1: Docker Compose (Recommended for full stack)
+
+Run both the FastAPI backend and Next.js frontend with Docker:
+
+```bash
+docker compose up --build -d
+```
+
+- Web UI: http://localhost:3000
+- API: http://localhost:8000
+- Health check: `curl http://localhost:8000/api/health`
+
+### Option 2: Linux / macOS / Cloud VM
+
+```bash
+# 1. Setup Python backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m uvicorn backend.app:app --host 0.0.0.0 --port 8000 &
+
+# 2. Setup Next.js frontend
+cd frontend
+npm ci
+npm run build
+npm run start &
+```
+
+### Option 3: Split Deployment (e.g. Render / Railway + Vercel)
+- **Backend (FastAPI)**: Deploy using `Dockerfile.backend` or `python -m uvicorn backend.app:app --host 0.0.0.0 --port 8000`. Set `MEDFORECAST_COOKIE_SECURE=1` for HTTPS.
+- **Frontend (Next.js on Vercel)**: Set environment variable `MEDFORECAST_API=https://your-backend-api.example.com`. Next.js rewrites will proxy `/api/*` requests to your backend.
+
