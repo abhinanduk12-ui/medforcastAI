@@ -1,0 +1,425 @@
+medicine_id,medicine_name,generic_name,category,form,reference_unit_price
+MED00001,5-aminosalicylic acid 20mg,5-aminosalicylic acid,Gastrointestinal,Sachet,38.71
+MED00002,5-Fluorouracil 10mg,5-Fluorouracil,Antineoplastic (Oncology),Injection,4293
+MED00003,6-Mercaptopurine 50mg,6-Mercaptopurine,Antineoplastic (Oncology),Tablet,3374.37
+MED00004,Abacavir 300mg,Abacavir,Antiretroviral (ART Program),Tablet,225.58
+MED00005,Abacavir + Lamivudine 300mg,Abacavir + Lamivudine,Antiretroviral (ART Program),Tablet,88.37
+MED00006,Acetazolamide 250mg,Acetazolamide,General/Other,Capsule,20.92
+MED00007,Acetylsalicylic acid 500mg,Acetylsalicylic acid,Analgesic/Antipyretic,Tablet,7.03
+MED00008,Actinomycin D 50mg,Actinomycin D,Antineoplastic (Oncology),Injection,3937.94
+MED00009,Activated Charcoal 40mg,Activated Charcoal,Gastrointestinal,Tablet,57.29
+MED00010,Acyclovir 300mg,Acyclovir,Antiviral,Tablet,294.91
+MED00011,Adenosine 10mg,Adenosine,Cardiac/Antihypertensive,Injection,10.92
+MED00012,Adrenaline 5ml,Adrenaline,General/Other,Syrup,77.89
+MED00013,Albendazole 500mg,Albendazole,General/Other,Syrup,68.27
+MED00014,Allopurinol 100mg,Allopurinol,Endocrine/Metabolic,Tablet,26.99
+MED00015,All-trans retinoic acid 100mg,All-trans retinoic acid,Antineoplastic (Oncology),Tablet,1063.66
+MED00016,Alprostadil 500mg,Alprostadil,General/Other,Syrup,22.84
+MED00017,Amikacin 250mg,Amikacin,General/Other,Tablet,31.3
+MED00018,Amiodarone 5mg,Amiodarone,Cardiac/Antihypertensive,Tablet,82.52
+MED00019,Amitriptyline 5mg,Amitriptyline,Neuro/Psychiatric,Tablet,57.51
+MED00020,Amlodipine 25mg,Amlodipine,Cardiac/Antihypertensive,Injection,49.35
+MED00021,Amoxicillin 125mg/5ml,Amoxicillin,Antibiotic,Capsule,115.96
+MED00022,Amoxicillin + Clavulanic acid 250mg,Amoxicillin + Clavulanic acid,Antibiotic,Capsule,38.02
+MED00023,Amphotericin B 1% w/w,Amphotericin B,Antifungal,Cream,57.98
+MED00024,Ampicillin 1g,Ampicillin,Antibiotic,Tablet,75.45
+MED00025,Anti-D immunoglobulin 500IU,Anti-D immunoglobulin,Blood Product/Coagulation,Injection,1477
+MED00026,Anti-rabies immunoglobulin 250IU,Anti-rabies immunoglobulin,Blood Product/Coagulation,Injection,2398.49
+MED00027,Anti-tetanus immunoglobulin 250IU,Anti-tetanus immunoglobulin,Blood Product/Coagulation,Injection,759.09
+MED00028,Arsenic trioxide 100mg,Arsenic trioxide,Antineoplastic (Oncology),Injection,2459.78
+MED00029,Artemether + Lumefantrine 250mg,Artemether + Lumefantrine,Antimalarial,Tablet,75.17
+MED00030,Artesunate 500mg,Artesunate,Antimalarial,Tablet,15.11
+MED00031,Artesunate + Sulphadoxine Pyrimethamine 500mg,Artesunate + Sulphadoxine Pyrimethamine,Antimalarial,Injection,76.83
+MED00032,Ascorbic acid 500mg,Ascorbic acid,Vitamin/Supplement,Syrup,20.23
+MED00033,Atazanavir + Ritonavir 600mg,Atazanavir + Ritonavir,Antiretroviral (ART Program),Tablet,60.17
+MED00034,Atorvastatin 25mg,Atorvastatin,Cardiac/Antihypertensive,Tablet,142.74
+MED00035,Atracurium 1%,Atracurium,Anesthetic,Injection,290.55
+MED00036,Atropine 1mg,Atropine,Antidote/Emergency,Injection,207.85
+MED00037,Azathioprine 25mg,Azathioprine,Immunosuppressant,Tablet,194.03
+MED00038,Azithromycin 1g,Azithromycin,Antibiotic,Tablet,31.12
+MED00039,Baclofen 10mg,Baclofen,Muscle Relaxant,Injection,64.74
+MED00040,Barium sulphate 100% w/v,Barium sulphate,Diagnostic/Contrast Agent,Injection,408.11
+MED00041,BCG vaccine 0.5ml,BCG vaccine,Vaccine/Immunological,Injection,153.73
+MED00042,Bedaquiline 300mg,Bedaquiline,Antitubercular,Tablet,49.61
+MED00043,Bendamustine Hydrochloride 50mg,Bendamustine Hydrochloride,Antineoplastic (Oncology),Tablet,444.43
+MED00044,Benzathine benzylpenicillin 125mg/5ml,Benzathine benzylpenicillin,Antibiotic,Capsule,165.04
+MED00045,Benzoyl peroxide 5ml,Benzoyl peroxide,General/Other,Tablet,28.11
+MED00046,Benzylpenicillin 1g,Benzylpenicillin,Antibiotic,Injection,124.32
+MED00047,Betamethasone 250mg,Betamethasone,General/Other,Capsule,31.82
+MED00048,Betamethasone 250mg,Betamethasone,General/Other,Tablet,46.4
+MED00049,Bicalutamide 50mg,Bicalutamide,Antineoplastic (Oncology),Injection,2596.18
+MED00050,Bisacodyl 5ml,Bisacodyl,General/Other,Capsule,22.94
+MED00051,Bleomycin 10mg,Bleomycin,Antineoplastic (Oncology),Tablet,4372.26
+MED00052,Bortezomib 10mg,Bortezomib,Antineoplastic (Oncology),Tablet,3555.56
+MED00053,Budesonide 200mcg,Budesonide,Respiratory,Tablet,208.5
+MED00054,Budesonide + Formoterol 100mcg,Budesonide + Formoterol,Respiratory,Inhaler,200.02
+MED00055,Bupivacaine 2%,Bupivacaine,Anesthetic,Injection,189.42
+MED00056,Buprenorphine 10mg,Buprenorphine,Opioid Analgesic,Tablet,139.84
+MED00057,Buprenorphine + Naloxone 100mg,Buprenorphine + Naloxone,Opioid Analgesic,Tablet,31.5
+MED00058,Caffeine 5ml,Caffeine,General/Other,Tablet,23.72
+MED00059,Calamine 1% w/w,Calamine,Dermatological,Lotion,29.3
+MED00060,Calcium carbonate 60mg,Calcium carbonate,Vitamin/Supplement,Syrup,29.52
+MED00061,Calcium folinate 10mg,Calcium folinate,Antineoplastic (Oncology),Tablet,1932.44
+MED00062,Calcium gluconate 5ml,Calcium gluconate,Vitamin/Supplement,Syrup,26.28
+MED00063,Capecitabine 10mg,Capecitabine,Antineoplastic (Oncology),Injection,3780.7
+MED00064,Carbamazepine 25mg,Carbamazepine,Neuro/Psychiatric,Tablet,49.24
+MED00065,Carbimazole 5mg,Carbimazole,Endocrine/Metabolic,Tablet,32.47
+MED00066,Carboplatin 100mg,Carboplatin,Antineoplastic (Oncology),Tablet,2579.32
+MED00067,Carboxymethyl cellulose 250mg,Carboxymethyl cellulose,General/Other,Tablet,19.86
+MED00068,Cefadroxil 125mg/5ml,Cefadroxil,Antibiotic,Tablet,147.36
+MED00069,Cefazolin 250mg,Cefazolin,Antibiotic,Capsule,27.3
+MED00070,Cefixime 500mg,Cefixime,Antibiotic,Syrup,177.84
+MED00071,Cefotaxime 125mg/5ml,Cefotaxime,Antibiotic,Capsule,142.42
+MED00072,Ceftazidime 250mg,Ceftazidime,Antibiotic,Capsule,47.79
+MED00073,Ceftriaxone 1g,Ceftriaxone,Antibiotic,Syrup,15.91
+MED00074,Cefuroxime 250mg,Cefuroxime,Antibiotic,Tablet,149.55
+MED00075,Cetirizine 5mg/5ml,Cetirizine,Antihistamine/Allergy,Tablet,33.27
+MED00076,Chlorambucil 50mg,Chlorambucil,Antineoplastic (Oncology),Tablet,3361.83
+MED00077,Chlorhexidine 5% w/v,Chlorhexidine,Antiseptic/Disinfectant,Solution,48.56
+MED00078,Chloroquine 250mg,Chloroquine,Antimalarial,Tablet,18.14
+MED00079,Cholecalciferol 5mg,Cholecalciferol,Endocrine/Metabolic,Tablet,38.68
+MED00080,Ciprofloxacin 500mg,Ciprofloxacin,Antibiotic,Capsule,34.12
+MED00081,Cisplatin 10mg,Cisplatin,Antineoplastic (Oncology),Tablet,3925.03
+MED00082,Clarithromycin 125mg/5ml,Clarithromycin,Antibiotic,Capsule,117.84
+MED00083,Clindamycin 500mg,Clindamycin,Antibiotic,Injection,69.6
+MED00084,Clobazam 300mg,Clobazam,Antiepileptic,Tablet,15.72
+MED00085,Clofazimine 250mg,Clofazimine,General/Other,Syrup,31.77
+MED00086,Clomiphene citrate 10IU,Clomiphene citrate,Reproductive/Hormonal Health,Injection,75.16
+MED00087,Clomipramine 250mg,Clomipramine,General/Other,Capsule,61.07
+MED00088,Clonazepam 100mg,Clonazepam,Antiepileptic,Tablet,67.38
+MED00089,Clopidogrel 5mg,Clopidogrel,Cardiac/Antihypertensive,Tablet,133.98
+MED00090,Clotrimazole 150mg,Clotrimazole,Antifungal,Cream,81.39
+MED00091,Cloxacillin 500mg,Cloxacillin,Antibiotic,Capsule,34.73
+MED00092,Clozapine 500mg,Clozapine,General/Other,Tablet,59.93
+MED00093,Coagulation factor IX 250IU,Coagulation factor IX,Blood Product/Coagulation,Injection,2330.2
+MED00094,Coagulation factor VIII 250IU,Coagulation factor VIII,Blood Product/Coagulation,Injection,1771.58
+MED00095,Coal tar + Salicylic Acid 500mg,Coal tar + Salicylic Acid,General/Other,Syrup,63.97
+MED00096,Colchicine 60000IU,Colchicine,Endocrine/Metabolic,Tablet,49.5
+MED00097,Condom 5mg,Condom,Reproductive/Hormonal Health,Injection,111.71
+MED00098,Co-trimoxazole [Sulphamethoxazole + Trimethoprim] 500mg,Co-trimoxazole [Sulphamethoxazole + Trimethoprim],General/Other,Capsule,39.93
+MED00099,Cryoprecipitate 250IU,Cryoprecipitate,Blood Product/Coagulation,Injection,271.17
+MED00100,Cyclophosphamide 100mg,Cyclophosphamide,Antineoplastic (Oncology),Tablet,753.14
+MED00101,Cycloserine 500mg,Cycloserine,General/Other,Tablet,12.2
+MED00102,Cyclosporine 25mg,Cyclosporine,Immunosuppressant,Tablet,340.02
+MED00103,Cytosine arabinoside 250mg,Cytosine arabinoside,General/Other,Syrup,32
+MED00104,D-Penicillamine 250mg,D-Penicillamine,General/Other,Syrup,45.6
+MED00105,Dabigatran 500mg,Dabigatran,General/Other,Capsule,73.53
+MED00106,Dacarbazine 50mg,Dacarbazine,Antineoplastic (Oncology),Injection,1347.03
+MED00107,Daclatasvir 5ml,Daclatasvir,General/Other,Syrup,38.73
+MED00108,Dapsone 500mg,Dapsone,General/Other,Syrup,62.89
+MED00109,Darunavir 300mg,Darunavir,Antiretroviral (ART Program),Tablet,110.93
+MED00110,Darunavir + Ritonavir 600mg,Darunavir + Ritonavir,Antiretroviral (ART Program),Tablet,63.86
+MED00111,Daunorubicin 100mg,Daunorubicin,Antineoplastic (Oncology),Injection,1516.96
+MED00112,Delamanid 250mg,Delamanid,General/Other,Tablet,21.29
+MED00113,Desferrioxamine 500mg,Desferrioxamine,General/Other,Syrup,75.08
+MED00114,Dexamethasone 50mcg,Dexamethasone,Hormone/Endocrine,Tablet,164.5
+MED00115,Dextran-40 500mg,Dextran-40,General/Other,Capsule,54.34
+MED00116,Diazepam 5mg,Diazepam,Neuro/Psychiatric,Tablet,105.86
+MED00117,Diclofenac 50mg,Diclofenac,NSAID,Tablet,49.79
+MED00118,Dicyclomine 500mg,Dicyclomine,General/Other,Tablet,23.06
+MED00119,Diethylcarbamazine 250mg,Diethylcarbamazine,General/Other,Syrup,72.48
+MED00120,Digoxin 10mg,Digoxin,Cardiac/Antihypertensive,Injection,84.59
+MED00121,Diltiazem 500mg,Diltiazem,General/Other,Syrup,66.52
+MED00122,Dinoprostone 250mg,Dinoprostone,General/Other,Tablet,72.73
+MED00123,Diphtheria antitoxin 1ml,Diphtheria antitoxin,Vaccine/Immunological,Injection,320.3
+MED00124,Dobutamine 250mg,Dobutamine,General/Other,Syrup,17.7
+MED00125,Docetaxel 100mg,Docetaxel,Antineoplastic (Oncology),Tablet,1257.33
+MED00126,Dolutegravir 300mg,Dolutegravir,Antiretroviral (ART Program),Tablet,172.4
+MED00127,Domperidone 40mg,Domperidone,Gastrointestinal,Tablet,75.08
+MED00128,Donepezil 500mg,Donepezil,General/Other,Syrup,70.25
+MED00129,Dopamine 5ml,Dopamine,General/Other,Tablet,10.49
+MED00130,Doxorubicin 10mg,Doxorubicin,Antineoplastic (Oncology),Injection,2445.14
+MED00131,Doxycycline 250mg,Doxycycline,Antibiotic,Syrup,83.87
+MED00132,DPT vaccine 1ml,DPT vaccine,Vaccine/Immunological,Injection,238.79
+MED00133,DPT + Hib + Hep B vaccine 0.5ml,DPT + Hib + Hep B vaccine,Vaccine/Immunological,Injection,151.89
+MED00134,Efavirenz 300mg,Efavirenz,Antiretroviral (ART Program),Tablet,144.66
+MED00135,Enalapril 5mg,Enalapril,Cardiac/Antihypertensive,Tablet,141.89
+MED00136,Enoxaparin 1mg,Enoxaparin,Anticoagulant,Injection,117.26
+MED00137,Entecavir 300mg,Entecavir,Antiviral,Tablet,226.76
+MED00138,Erythropoietin 5ml,Erythropoietin,General/Other,Capsule,59.21
+MED00139,Escitalopram 5ml,Escitalopram,General/Other,Tablet,35.45
+MED00140,Esmolol 250mg,Esmolol,General/Other,Tablet,78.02
+MED00141,Ethambutol 125mg/5ml,Ethambutol,Antibiotic,Syrup,173.8
+MED00142,Ethinylestradiol + Levonorgestrel 0.75mg,Ethinylestradiol + Levonorgestrel,Reproductive/Hormonal Health,Tablet,61.58
+MED00143,Ethionamide 250mg,Ethionamide,General/Other,Capsule,44.81
+MED00144,Ethyl alcohol 250mg,Ethyl alcohol,General/Other,Tablet,31.06
+MED00145,Etoposide 50mg,Etoposide,Antineoplastic (Oncology),Tablet,1496.33
+MED00146,Fentanyl 125mg/5ml,Fentanyl,Analgesic/Antipyretic,Injection,6.29
+MED00147,Ferrous Salts + Folic Acid 60mg,Ferrous Salts + Folic Acid,Vitamin/Supplement,Syrup,46.57
+MED00148,Ferrous salts 500mg,Ferrous salts,Vitamin/Supplement,Syrup,40.16
+MED00149,Filgrastim 250mg,Filgrastim,General/Other,Tablet,13.6
+MED00150,Fluconazole 150mg,Fluconazole,Antifungal,Tablet,56.22
+MED00151,Fludrocortisone 500mg,Fludrocortisone,General/Other,Capsule,73.58
+MED00152,Flunarizine 250mg,Flunarizine,General/Other,Capsule,26.77
+MED00153,Fluorescein 250mg,Fluorescein,General/Other,Tablet,20.14
+MED00154,Fluoxetine 10mg,Fluoxetine,Neuro/Psychiatric,Tablet,63.84
+MED00155,Fluphenazine 250mg,Fluphenazine,General/Other,Syrup,79
+MED00156,Folic Acid 60mg,Folic Acid,Vitamin/Supplement,Tablet,24.52
+MED00157,Framycetin 5ml,Framycetin,General/Other,Capsule,57.05
+MED00158,Fresh frozen plasma 250IU,Fresh frozen plasma,Blood Product/Coagulation,Injection,2332.53
+MED00159,Furosemide 5mg,Furosemide,Cardiac/Antihypertensive,Injection,41.74
+MED00160,Fusidic acid 250mg,Fusidic acid,General/Other,Tablet,60.98
+MED00161,Gadobenate dimeglumine 500mg,Gadobenate dimeglumine,General/Other,Tablet,35.74
+MED00162,Gefitinib 5ml,Gefitinib,General/Other,Capsule,54.26
+MED00163,Gemcitabine 100mg,Gemcitabine,Antineoplastic (Oncology),Injection,2960.82
+MED00164,Gentamicin 500mg,Gentamicin,Antibiotic,Syrup,103.4
+MED00165,Glimepiride 500mg,Glimepiride,Antidiabetic,Injection,31.67
+MED00166,Glucose 5ml,Glucose,General/Other,Capsule,68.47
+MED00167,Glucose + Sodium chloride 5ml,Glucose + Sodium chloride,General/Other,Syrup,32.45
+MED00168,Glutaraldehyde 250mg,Glutaraldehyde,General/Other,Syrup,23.06
+MED00169,Glycerin 500mg,Glycerin,General/Other,Tablet,12.85
+MED00170,Glyceryl trinitrate 250mg,Glyceryl trinitrate,General/Other,Capsule,51.36
+MED00171,Glycopyrrolate 500mg,Glycopyrrolate,General/Other,Syrup,57.43
+MED00172,Griseofulvin 200mg,Griseofulvin,Antifungal,Tablet,22.16
+MED00173,Haemodialysis fluid 5ml,Haemodialysis fluid,General/Other,Tablet,45.85
+MED00174,Haloperidol 10mg,Haloperidol,Neuro/Psychiatric,Tablet,34.91
+MED00175,Halothane 1%,Halothane,Anesthetic,Injection,202.42
+MED00176,Heparin 5mg,Heparin,Cardiac/Antihypertensive,Injection,32.76
+MED00177,Hepatitis B immunoglobulin 250IU,Hepatitis B immunoglobulin,Blood Product/Coagulation,Injection,2134.63
+MED00178,Hepatitis B vaccine 0.5ml,Hepatitis B vaccine,Vaccine/Immunological,Injection,378.73
+MED00179,Homatropine 1mg,Homatropine,Antidote/Emergency,Tablet,236.08
+MED00180,Hormone releasing IUD 500mg,Hormone releasing IUD,General/Other,Syrup,19.63
+MED00181,Human chorionic gonadotropin 250mg,Human chorionic gonadotropin,General/Other,Tablet,33.87
+MED00182,Human normal immunoglobulin 250IU,Human normal immunoglobulin,Blood Product/Coagulation,Injection,517.73
+MED00183,Hydrochlorothiazide 10mg,Hydrochlorothiazide,Cardiac/Antihypertensive,Injection,139.31
+MED00184,Hydrocortisone 5mg,Hydrocortisone,Hormone/Endocrine,Tablet,177.31
+MED00185,Hydrogen Peroxide 10% w/v,Hydrogen Peroxide,Antiseptic/Disinfectant,Solution,22.9
+MED00186,Hydroxocobalamine 250mg,Hydroxocobalamine,General/Other,Capsule,56.2
+MED00187,Hydroxychloroquine 250mg,Hydroxychloroquine,Antimalarial,Tablet,99.89
+MED00188,Hydroxypropyl methylcellulose 500mg,Hydroxypropyl methylcellulose,General/Other,Tablet,48.86
+MED00189,Hydroxyurea 50mg,Hydroxyurea,Antineoplastic (Oncology),Tablet,2524.53
+MED00190,Hyoscine butylbromide 5ml,Hyoscine butylbromide,General/Other,Tablet,26.93
+MED00191,Ibuprofen 75mg,Ibuprofen,NSAID,Tablet,12.84
+MED00192,Ifosfamide 10mg,Ifosfamide,Antineoplastic (Oncology),Tablet,4068.31
+MED00193,Imatinib 100mg,Imatinib,Antineoplastic (Oncology),Injection,4081.76
+MED00194,Insulin 40IU/ml,Insulin,Antidiabetic,Tablet,161.94
+MED00195,Insulin Glargine 5mg,Insulin Glargine,Antidiabetic,Tablet,91.37
+MED00196,Insulin Intermediate Acting 5mg,Insulin Intermediate Acting,Antidiabetic,Tablet,93.81
+MED00197,Insulin Premix Injection 30:70 500mg,Insulin Premix Injection 30:70,Antidiabetic,Tablet,184.23
+MED00198,Iohexol 250mg,Iohexol,General/Other,Syrup,72.8
+MED00199,Ipratropium 100mcg,Ipratropium,Respiratory,Tablet,198.55
+MED00200,Irinotecan HCI Trihydrate 500mg,Irinotecan HCI Trihydrate,General/Other,Tablet,64.59
+MED00201,Iron sucrose 60mg,Iron sucrose,Vitamin/Supplement,Tablet,48.52
+MED00202,Isoflurane 250mg,Isoflurane,General/Other,Syrup,15.89
+MED00203,Isoniazid 125mg/5ml,Isoniazid,Antibiotic,Tablet,41.67
+MED00204,Isosorbide dinitrate 5ml,Isosorbide dinitrate,General/Other,Syrup,72.9
+MED00205,Ispaghula 250mg,Ispaghula,General/Other,Capsule,52.45
+MED00206,Itraconazole 150mg,Itraconazole,Antifungal,Cream,21.2
+MED00207,IUD containing Copper 250mg,IUD containing Copper,General/Other,Tablet,17.1
+MED00208,Ivermectin 5ml,Ivermectin,General/Other,Tablet,56.45
+MED00209,Japanese Encephalitis Vaccine 0.5ml,Japanese Encephalitis Vaccine,Vaccine/Immunological,Injection,54.3
+MED00210,Ketamine 1%,Ketamine,Anesthetic,Injection,69.22
+MED00211,Labetalol 250mg,Labetalol,General/Other,Syrup,48.41
+MED00212,Lactulose 5ml,Lactulose,Gastrointestinal,Sachet,64.74
+MED00213,Lamivudine 300mg,Lamivudine,Antiretroviral (ART Program),Tablet,242.11
+MED00214,L-Asparaginase 5ml,L-Asparaginase,General/Other,Syrup,25.7
+MED00215,Latanoprost 250mg,Latanoprost,General/Other,Tablet,59.85
+MED00216,Lenalidomide 10mg,Lenalidomide,Antineoplastic (Oncology),Injection,1296.45
+MED00217,Letrozole 50mg,Letrozole,Antineoplastic (Oncology),Tablet,1666.68
+MED00218,Leuprolide acetate 5ml,Leuprolide acetate,General/Other,Capsule,62.25
+MED00219,Levetiracetam 200mg,Levetiracetam,Antiepileptic,Tablet,68.47
+MED00220,Levodopa + Carbidopa 500mg,Levodopa + Carbidopa,General/Other,Syrup,69.45
+MED00221,Levofloxacin 125mg/5ml,Levofloxacin,Antibiotic,Syrup,123.51
+MED00222,Levonorgestrel 0.75mg,Levonorgestrel,Reproductive/Hormonal Health,Tablet,120.14
+MED00223,Levothyroxine 5mg,Levothyroxine,Hormone/Endocrine,Injection,32.33
+MED00224,Lignocaine 5ml,Lignocaine,General/Other,Syrup,35.74
+MED00225,Lignocaine + Adrenaline 250mg,Lignocaine + Adrenaline,General/Other,Syrup,28.56
+MED00226,Linezolid 125mg/5ml,Linezolid,Antibiotic,Injection,55.26
+MED00227,Lithium 10mg,Lithium,Neuro/Psychiatric,Tablet,117.03
+MED00228,Loperamide 1 sachet,Loperamide,Gastrointestinal,Syrup,40.23
+MED00229,Lopinavir + Ritonavir 600mg,Lopinavir + Ritonavir,Antiretroviral (ART Program),Tablet,316.53
+MED00230,Lorazepam 5mg,Lorazepam,Neuro/Psychiatric,Tablet,79.43
+MED00231,Magnesium sulphate 250mg,Magnesium sulphate,General/Other,Syrup,65.64
+MED00232,Mannitol 250mg,Mannitol,General/Other,Tablet,45.18
+MED00233,Measles vaccine 1ml,Measles vaccine,Vaccine/Immunological,Injection,540.37
+MED00234,Mebendazole 250mg,Mebendazole,General/Other,Syrup,44.48
+MED00235,Medroxyprogesterone acetate 5mg,Medroxyprogesterone acetate,Hormone/Endocrine,Tablet,51.12
+MED00236,Mefenamic acid 1% w/w,Mefenamic acid,NSAID,Gel,45.57
+MED00237,Mefloquine 60mg/ml,Mefloquine,Antimalarial,Tablet,40.88
+MED00238,Meglumine diatrizoate 250mg,Meglumine diatrizoate,General/Other,Tablet,11.7
+MED00239,Melphalan 5ml,Melphalan,General/Other,Capsule,55.18
+MED00240,Meropenem 250mg,Meropenem,Antibiotic,Syrup,44.22
+MED00241,Mesna 5ml,Mesna,General/Other,Tablet,75.83
+MED00242,Metformin 5mg,Metformin,Antidiabetic,Tablet,238.94
+MED00243,Methotrexate 50mg,Methotrexate,Antineoplastic (Oncology),Injection,4142.43
+MED00244,Methylergometrine 500mg,Methylergometrine,General/Other,Tablet,35.91
+MED00245,Methylprednisolone 25mcg,Methylprednisolone,Hormone/Endocrine,Tablet,17.86
+MED00246,Methylrosanilinium chloride 5ml,Methylrosanilinium chloride,General/Other,Syrup,74.98
+MED00247,Methylthioninium chloride 250mg,Methylthioninium chloride,General/Other,Tablet,39.97
+MED00248,Metoclopramide 40mg,Metoclopramide,Gastrointestinal,Syrup,87.27
+MED00249,Metoprolol 2.5mg,Metoprolol,Cardiac/Antihypertensive,Injection,144.83
+MED00250,Metronidazole 500mg,Metronidazole,Antibiotic,Injection,155.75
+MED00251,Midazolam 5ml,Midazolam,General/Other,Tablet,30.61
+MED00252,Mifepristone 5mg,Mifepristone,Reproductive/Hormonal Health,Tablet,86.24
+MED00253,Miltefosine 500mg,Miltefosine,General/Other,Syrup,69.58
+MED00254,Misoprostol 0.75mg,Misoprostol,Reproductive/Hormonal Health,Tablet,73.63
+MED00255,Montelukast 200mcg,Montelukast,Respiratory,Syrup,62.2
+MED00256,Morphine 125mg/5ml,Morphine,Analgesic/Antipyretic,Tablet,24.49
+MED00257,Moxifloxacin 250mg,Moxifloxacin,Antibiotic,Capsule,169.47
+MED00258,Mupirocin 500mg,Mupirocin,General/Other,Syrup,58.72
+MED00259,Mycophenolate mofetil 5ml,Mycophenolate mofetil,General/Other,Syrup,49.9
+MED00260,N-acetylcysteine 600mg,N-acetylcysteine,Antidote/Emergency,Tablet,51.38
+MED00261,Naloxone 600mg,Naloxone,Antidote/Emergency,Tablet,165.3
+MED00262,Natamycin 1g,Natamycin,Antibiotic,Capsule,178.36
+MED00263,Neostigmine 250mg,Neostigmine,General/Other,Syrup,19.81
+MED00264,Nevirapine 600mg,Nevirapine,Antiretroviral (ART Program),Tablet,200.68
+MED00265,Nicotine replacement therapy 250mg,Nicotine replacement therapy,General/Other,Capsule,71.42
+MED00266,Nifedipine 25mg,Nifedipine,Cardiac/Antihypertensive,Tablet,113.19
+MED00267,Nitrofurantoin 500mg,Nitrofurantoin,General/Other,Syrup,58.79
+MED00268,Nitrous oxide 250mg,Nitrous oxide,General/Other,Capsule,59.17
+MED00269,Noradrenaline 250mg,Noradrenaline,General/Other,Tablet,35.16
+MED00270,Norethisterone 250mg,Norethisterone,General/Other,Syrup,30.55
+MED00271,Nystatin 150mg,Nystatin,Antifungal,Tablet,125.22
+MED00272,Omeprazole 40mg,Omeprazole,Gastrointestinal,Tablet,74.43
+MED00273,Ondansetron 1 sachet,Ondansetron,Gastrointestinal,Tablet,79.1
+MED00274,Oral poliomyelitis vaccine 0.5ml,Oral poliomyelitis vaccine,Vaccine/Immunological,Injection,826.25
+MED00275,Oral rehydration salts 20mg,Oral rehydration salts,Gastrointestinal,Sachet,49.93
+MED00276,Ormeloxifene 250mg,Ormeloxifene,General/Other,Syrup,45.11
+MED00277,Oxaliplatin 10mg,Oxaliplatin,Antineoplastic (Oncology),Tablet,3652.84
+MED00278,Oxygen 250mg,Oxygen,General/Other,Syrup,55.5
+MED00279,Oxytocin 25mcg,Oxytocin,Hormone/Endocrine,Tablet,144.86
+MED00280,Paclitaxel 100mg,Paclitaxel,Antineoplastic (Oncology),Tablet,3642.33
+MED00281,Pantoprazole 20mg,Pantoprazole,Gastrointestinal,Sachet,80.98
+MED00282,Para-aminosalicylic acid 1 sachet,Para-aminosalicylic acid,Gastrointestinal,Sachet,35.72
+MED00283,Paracetamol 650mg,Paracetamol,Analgesic/Antipyretic,Tablet,18.15
+MED00284,Paromomycin 125mg/5ml,Paromomycin,Antibiotic,Tablet,30.51
+MED00285,Peritoneal dialysis solution 250mg,Peritoneal dialysis solution,General/Other,Syrup,50.48
+MED00286,Permethrin 1% w/w,Permethrin,Dermatological,Lotion,28.41
+MED00287,Pheniramine 500mg,Pheniramine,General/Other,Syrup,42.59
+MED00288,Phenobarbitone 100mg,Phenobarbitone,Neuro/Psychiatric,Tablet,69.69
+MED00289,Phenoxymethyl penicillin 250mg,Phenoxymethyl penicillin,Antibiotic,Injection,62.28
+MED00290,Phenylephrine 250mg,Phenylephrine,General/Other,Syrup,51.36
+MED00291,Phenytoin 10mg,Phenytoin,Neuro/Psychiatric,Tablet,13.36
+MED00292,Phytomenadione 500mg,Phytomenadione,Vitamin/Supplement,Syrup,12.24
+MED00293,Pilocarpine 1%,Pilocarpine,Ophthalmic,Eye Drop,94.03
+MED00294,Piperacillin + Tazobactam 250mg,Piperacillin + Tazobactam,Antibiotic,Tablet,74.43
+MED00295,Platelet rich plasma / Platelet concentrates 250IU,Platelet rich plasma / Platelet concentrates,Blood Product/Coagulation,Injection,555.77
+MED00296,Podophyllin resin 500mg,Podophyllin resin,General/Other,Syrup,46.56
+MED00297,Potassium chloride 250mg,Potassium chloride,General/Other,Tablet,63.9
+MED00298,Potassium permanganate 250mg,Potassium permanganate,General/Other,Syrup,25.11
+MED00299,Povidone iodine 300mg/ml,Povidone iodine,Diagnostic/Contrast Agent,Suspension,536.02
+MED00300,Pralidoxime chloride 250mg,Pralidoxime chloride,General/Other,Syrup,15.97
+MED00301,Praziquantel 250mg,Praziquantel,General/Other,Syrup,13.62
+MED00302,Prednisolone 50mcg,Prednisolone,Hormone/Endocrine,Injection,113.3
+MED00303,Primaquine 500mg,Primaquine,Antimalarial,Tablet,69.47
+MED00304,Procaine Benzylpenicillin 250mg,Procaine Benzylpenicillin,Antibiotic,Tablet,120.18
+MED00305,Proparacaine 500mg,Proparacaine,General/Other,Syrup,60.83
+MED00306,Propofol 1%,Propofol,Anesthetic,Injection,293.36
+MED00307,Propranolol 5mg,Propranolol,Cardiac/Antihypertensive,Tablet,81.31
+MED00308,Protamine Sulphate 1mg,Protamine Sulphate,Antidote/Emergency,Injection,101.05
+MED00309,Pyrazinamide 500mg,Pyrazinamide,Antibiotic,Tablet,146.21
+MED00310,Pyridoxine 500mg,Pyridoxine,Vitamin/Supplement,Tablet,26.25
+MED00311,Quinine 60mg/ml,Quinine,Antimalarial,Injection,58.29
+MED00312,Rabies vaccine 0.5ml,Rabies vaccine,Vaccine/Immunological,Injection,116.69
+MED00313,Raltegravir 600mg,Raltegravir,Antiretroviral (ART Program),Tablet,47.86
+MED00314,Ramipril 10mg,Ramipril,Cardiac/Antihypertensive,Injection,144.7
+MED00315,Red blood cells / Packed RBCs 5ml,Red blood cells / Packed RBCs,General/Other,Capsule,68.52
+MED00316,Ribavirin 5ml,Ribavirin,General/Other,Capsule,58.72
+MED00317,Riboflavin 500mg,Riboflavin,General/Other,Tablet,38.63
+MED00318,Rifampicin 250mg,Rifampicin,Antibiotic,Syrup,43.59
+MED00319,Ringer lactate 500mg,Ringer lactate,General/Other,Capsule,20.95
+MED00320,Risperidone 100mg,Risperidone,Neuro/Psychiatric,Tablet,37.53
+MED00321,Ritonavir 300mg,Ritonavir,Antiretroviral (ART Program),Tablet,210.26
+MED00322,Rituximab 10mg,Rituximab,Antineoplastic (Oncology),Injection,3301.3
+MED00323,Rotavirus vaccine 0.5ml,Rotavirus vaccine,Vaccine/Immunological,Injection,611.17
+MED00324,Salbutamol 200mcg,Salbutamol,Respiratory,Syrup,83.19
+MED00325,Salicylic acid 5ml,Salicylic acid,General/Other,Capsule,76.84
+MED00326,Sevoflurane 5ml,Sevoflurane,General/Other,Tablet,61.65
+MED00327,Silver sulphadiazine 250mg,Silver sulphadiazine,General/Other,Tablet,48.8
+MED00328,Snake Venom Antiserum 250mg,Snake Venom Antiserum,General/Other,Capsule,52.82
+MED00329,Sodium bicarbonate 250mg,Sodium bicarbonate,General/Other,Capsule,39.37
+MED00330,Sodium chloride 5ml,Sodium chloride,General/Other,Tablet,27.34
+MED00331,Sodium nitrite 250mg,Sodium nitrite,General/Other,Capsule,34.92
+MED00332,Sodium nitroprusside 250mg,Sodium nitroprusside,General/Other,Tablet,63.05
+MED00333,Sodium thiosulphate 500mg,Sodium thiosulphate,General/Other,Syrup,11.01
+MED00334,Sodium Valproate 25mg,Sodium Valproate,Neuro/Psychiatric,Tablet,22.77
+MED00335,Sofosbuvir 300mg,Sofosbuvir,Antiviral,Capsule,56.56
+MED00336,Somatostatin 500mg,Somatostatin,General/Other,Syrup,12.85
+MED00337,Spironolactone 2.5mg,Spironolactone,Cardiac/Antihypertensive,Injection,129.48
+MED00338,Streptokinase 2.5mg,Streptokinase,Cardiac/Antihypertensive,Injection,107.92
+MED00339,Streptomycin 125mg/5ml,Streptomycin,Antibiotic,Syrup,93.24
+MED00340,Succinylcholine 2%,Succinylcholine,Anesthetic,Injection,51.9
+MED00341,Sulfasalazine 250mg,Sulfasalazine,General/Other,Syrup,44.41
+MED00342,Sumatriptan 250mg,Sumatriptan,General/Other,Tablet,43.14
+MED00343,Surfactant 5ml,Surfactant,General/Other,Capsule,22.12
+MED00344,Tacrolimus 25mg,Tacrolimus,Immunosuppressant,Tablet,250.89
+MED00345,Tamoxifen 100mg,Tamoxifen,Antineoplastic (Oncology),Injection,1973.72
+MED00346,Telmisartan 500mg,Telmisartan,General/Other,Syrup,53.11
+MED00347,Temozolomide 50mg,Temozolomide,Antineoplastic (Oncology),Tablet,2967.39
+MED00348,Tenecteplase 250mg,Tenecteplase,General/Other,Syrup,13.17
+MED00349,Teneligliptin 250mg,Teneligliptin,General/Other,Syrup,36.22
+MED00350,Tenofovir + Lamivudine 300mg,Tenofovir + Lamivudine,Antiretroviral (ART Program),Tablet,234.02
+MED00351,Tenofovir + Lamivudine + Dolutegravir 300mg,Tenofovir + Lamivudine + Dolutegravir,Antiretroviral (ART Program),Tablet,195.97
+MED00352,Tenofovir + Lamivudine + Efavirenz 600mg,Tenofovir + Lamivudine + Efavirenz,Antiretroviral (ART Program),Tablet,305.51
+MED00353,Tenofovir Alafenamide Fumarate 300mg,Tenofovir Alafenamide Fumarate,Antiretroviral (ART Program),Tablet,244.2
+MED00354,Tenofovir Disproxil Fumarate 600mg,Tenofovir Disproxil Fumarate,Antiretroviral (ART Program),Tablet,90.51
+MED00355,Terbinafine 150mg,Terbinafine,Antifungal,Cream,29.17
+MED00356,Tetanus toxoid 250mg,Tetanus toxoid,General/Other,Tablet,54.97
+MED00357,Thalidomide 100mg,Thalidomide,Antineoplastic (Oncology),Injection,411.35
+MED00358,Thiamine 60mg,Thiamine,Vitamin/Supplement,Tablet,45.15
+MED00359,Thiopentone 5ml,Thiopentone,General/Other,Capsule,75.82
+MED00360,Timolol 1%,Timolol,Ophthalmic,Eye Drop,71.79
+MED00361,Tiotropium 5ml,Tiotropium,General/Other,Capsule,37.17
+MED00362,Tramadol 650mg,Tramadol,Analgesic/Antipyretic,Syrup,27.52
+MED00363,Tranexamic acid 5ml,Tranexamic acid,General/Other,Capsule,42.08
+MED00364,Trastuzumab 100mg,Trastuzumab,Antineoplastic (Oncology),Tablet,2591.59
+MED00365,Trihexyphenidyl 250mg,Trihexyphenidyl,General/Other,Capsule,75.9
+MED00366,Tropicamide 250mg,Tropicamide,General/Other,Syrup,37.03
+MED00367,"Tuberculin, Purified Protein derivative 500mg","Tuberculin, Purified Protein derivative",General/Other,Syrup,77.28
+MED00368,Valganciclovir 5ml,Valganciclovir,General/Other,Tablet,73.37
+MED00369,Vancomycin 125mg/5ml,Vancomycin,Antibiotic,Capsule,47.31
+MED00370,Vecuronium 10mg,Vecuronium,Muscle Relaxant,Tablet,15.55
+MED00371,Verapamil 10mg,Verapamil,Cardiac/Antihypertensive,Tablet,22.31
+MED00372,Vinblastine 100mg,Vinblastine,Antineoplastic (Oncology),Tablet,376.53
+MED00373,Vincristine 50mg,Vincristine,Antineoplastic (Oncology),Tablet,696.66
+MED00374,Vitamin A 60mg,Vitamin A,Vitamin/Supplement,Tablet,50.98
+MED00375,Warfarin 25mg,Warfarin,Cardiac/Antihypertensive,Tablet,18.11
+MED00376,Water for Injection 250mg,Water for Injection,General/Other,Tablet,32.33
+MED00377,Whole blood 250IU,Whole blood,Blood Product/Coagulation,Injection,2565.65
+MED00378,Xylometazoline 500mg,Xylometazoline,General/Other,Syrup,11.63
+MED00379,Zidovudine 600mg,Zidovudine,Antiretroviral (ART Program),Tablet,292.49
+MED00380,Zidovudine + Lamivudine 600mg,Zidovudine + Lamivudine,Antiretroviral (ART Program),Tablet,127.37
+MED00381,Zidovudine + Lamivudine + Nevirapine 300mg,Zidovudine + Lamivudine + Nevirapine,Antiretroviral (ART Program),Tablet,76.63
+MED00382,Zinc Sulphate 60mg,Zinc Sulphate,Vitamin/Supplement,Syrup,51.8
+MED00383,Zoledronic acid 250mg,Zoledronic acid,General/Other,Syrup,54.03
+MED00384,Zolpidem 500mg,Zolpidem,General/Other,Syrup,71.42
+MED00385,Dolo 650mg,Paracetamol,Analgesic/Antipyretic,Tablet,26.03
+MED00386,Crocin Advance 500mg,Paracetamol,Analgesic/Antipyretic,Tablet,22.45
+MED00387,Combiflam Tablet,Ibuprofen + Paracetamol,NSAID,Tablet,19.23
+MED00388,Ecosprin 75mg,Aspirin (low-dose),Cardiac/Antihypertensive,Tablet,10.13
+MED00389,Azithral 500mg,Azithromycin,Antibiotic,Tablet,115.04
+MED00390,Augmentin 625 Duo,Amoxicillin + Clavulanic acid,Antibiotic,Tablet,200.68
+MED00391,Pan-D Capsule,Pantoprazole + Domperidone,Gastrointestinal,Capsule,159.34
+MED00392,Pantocid 40mg,Pantoprazole,Gastrointestinal,Tablet,84.76
+MED00393,Digene Gel,Antacid (Magaldrate),Gastrointestinal,Syrup,98.6
+MED00394,Eno Sachet,Sodium Bicarbonate + Citric acid,Gastrointestinal,Sachet,17.76
+MED00395,Electral Powder,Oral Rehydration Salts,Gastrointestinal,Sachet,20.11
+MED00396,Glycomet 500mg,Metformin,Antidiabetic,Tablet,67.23
+MED00397,Amlodac 5mg,Amlodipine,Cardiac/Antihypertensive,Tablet,54.34
+MED00398,Telma 40mg,Telmisartan,Cardiac/Antihypertensive,Tablet,98.61
+MED00399,Rosuvas 10mg,Rosuvastatin,Cardiac/Antihypertensive,Tablet,170.1
+MED00400,Atorva 10mg,Atorvastatin,Cardiac/Antihypertensive,Tablet,135.45
+MED00401,Cetzine 10mg,Cetirizine,Antihistamine/Allergy,Tablet,9.75
+MED00402,Allegra 120mg,Fexofenadine,Antihistamine/Allergy,Tablet,171.23
+MED00403,Zerodol-SP,Aceclofenac + Paracetamol + Serratiopeptidase,NSAID,Tablet,90.32
+MED00404,Meftal Spas,Mefenamic acid + Dicyclomine,NSAID,Tablet,54.79
+MED00405,Volini Gel,Diclofenac (topical),NSAID,Cream,118.8
+MED00406,Moov Pain Relief Cream,Analgesic balm,NSAID,Cream,142.69
+MED00407,Sinarest Tablet,Paracetamol + Phenylephrine + Chlorpheniramine,Antihistamine/Allergy,Tablet,22.78
+MED00408,Cheston Cold,Cetirizine + Phenylephrine + Paracetamol,Antihistamine/Allergy,Tablet,20.22
+MED00409,Ascoril LS Syrup,Levosalbutamol + Ambroxol + Guaifenesin,Respiratory,Syrup,153.38
+MED00410,Benadryl Cough Syrup,Diphenhydramine + Ammonium chloride,Respiratory,Syrup,85.48
+MED00411,Zincovit Tablet,Multivitamin + Zinc,Vitamin/Supplement,Tablet,79.16
+MED00412,Becosules Capsule,Vitamin B-Complex + Vitamin C,Vitamin/Supplement,Capsule,43.75
+MED00413,Shelcal 500mg,Calcium + Vitamin D3,Vitamin/Supplement,Tablet,156.54
+MED00414,Calcirol Sachet,Cholecalciferol (Vitamin D3),Vitamin/Supplement,Sachet,36.47
+MED00415,Neurobion Forte,Vitamin B1+B6+B12,Vitamin/Supplement,Tablet,40.8
+MED00416,Dexorange Syrup,Iron + Folic Acid + Vitamins,Vitamin/Supplement,Syrup,131.39
+MED00417,Livogen Tablet,Ferrous Fumarate + Folic Acid,Vitamin/Supplement,Tablet,32.33
+MED00418,Sporlac DS,Lactobacillus (Probiotic),Gastrointestinal,Tablet,39.86
+MED00419,Enterogermina Vial,Bacillus clausii (Probiotic),Gastrointestinal,Syrup,130.35
+MED00420,Betadine Ointment,Povidone Iodine (topical),Antiseptic/Disinfectant,Cream,105.14
+MED00421,Dettol Antiseptic Liquid,Chloroxylenol,Antiseptic/Disinfectant,Solution,161.24
+MED00422,Liv 52 Tablet,Herbal liver supplement,Vitamin/Supplement,Tablet,137.38
+MED00423,Ondem 4mg,Ondansetron,Gastrointestinal,Tablet,28.19
+MED00424,Vertin 16mg,Betahistine,Neuro/Psychiatric,Tablet,89.67

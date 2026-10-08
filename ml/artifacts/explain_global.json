@@ -1,0 +1,680 @@
+{
+ "generated_at": "2026-10-01T20:25:38",
+ "method": "XGBoost native TreeSHAP (pred_contribs), log/margin space of the Poisson model",
+ "gbm_rounds": 322,
+ "bias": 2.0200798511505127,
+ "baseline_rate": 7.53892707824707,
+ "groups": [
+  "Long-run demand level",
+  "Recent sales (lags & averages)",
+  "Momentum & trend",
+  "Season effect",
+  "Festivals",
+  "Product traits",
+  "Forecast horizon",
+  "Store & category activity"
+ ],
+ "group_features": {
+  "Long-run demand level": [
+   "hist_mean",
+   "deseason_level"
+  ],
+  "Recent sales (lags & averages)": [
+   "lag_1",
+   "lag_2",
+   "lag_3",
+   "lag_4",
+   "ma_4",
+   "ma_8",
+   "ma_12",
+   "ema",
+   "std_8",
+   "nz_8",
+   "weeks_since_sale"
+  ],
+  "Momentum & trend": [
+   "momentum"
+  ],
+  "Season effect": [
+   "target_med_season_idx",
+   "target_cat_season_idx",
+   "recent_season_idx",
+   "season_shift",
+   "seasonal_naive",
+   "woy_sin",
+   "woy_cos",
+   "month",
+   "season_code"
+  ],
+  "Festivals": [
+   "fest_onam",
+   "fest_vishu",
+   "fest_xmas"
+  ],
+  "Product traits": [
+   "category_code",
+   "form_code",
+   "log_price",
+   "rx_share"
+  ],
+  "Forecast horizon": [
+   "h"
+  ],
+  "Store & category activity": [
+   "cat_momentum",
+   "store_momentum"
+  ]
+ },
+ "checks": {
+  "additivity_max_err": 1.239776611328125e-05,
+  "predict_max_err": 7.62939453125e-06,
+  "agreement_with_forecast_csv": {
+   "rows": 5088,
+   "max_abs_diff": 5.277099609202196e-05,
+   "corr": 0.9999999999977632,
+   "total_ratio": 1.0000001564951435
+  }
+ },
+ "overall": {
+  "forecast": {
+   "Long-run demand level": 0.9493967504488313,
+   "Recent sales (lags & averages)": 0.20957328382055687,
+   "Momentum & trend": 0.013890515625060449,
+   "Season effect": 0.081942023332275,
+   "Festivals": 0.002232799037746028,
+   "Product traits": 0.1969898926844171,
+   "Forecast horizon": 0.0007418104003087428,
+   "Store & category activity": 0.002063367845439693
+  },
+  "training": {
+   "Long-run demand level": 0.9558100631505713,
+   "Recent sales (lags & averages)": 0.21262852952042768,
+   "Momentum & trend": 0.011038972189295736,
+   "Season effect": 0.07487243738230663,
+   "Festivals": 0.0041938280954316315,
+   "Product traits": 0.20782384918162744,
+   "Forecast horizon": 0.0007059956504609943,
+   "Store & category activity": 0.002209537530050599
+  }
+ },
+ "by_season": {
+  "Winter": {
+   "Long-run demand level": 0.9360886752140182,
+   "Recent sales (lags & averages)": 0.2094662975005082,
+   "Momentum & trend": 0.011120987065248155,
+   "Season effect": 0.05459366295132535,
+   "Festivals": 0.003055376922815764,
+   "Product traits": 0.20296224332987162,
+   "Forecast horizon": 0.0007136860172344032,
+   "Store & category activity": 0.0018793016680353617,
+   "_rows": 11671
+  },
+  "Summer": {
+   "Long-run demand level": 0.9678025850611789,
+   "Recent sales (lags & averages)": 0.21503283020650968,
+   "Momentum & trend": 0.010988707094831735,
+   "Season effect": 0.07460255985999578,
+   "Festivals": 0.006003491898444298,
+   "Product traits": 0.20823758624822097,
+   "Forecast horizon": 0.000753952680670399,
+   "Store & category activity": 0.002481033561372419,
+   "_rows": 11676
+  },
+  "Monsoon": {
+   "Long-run demand level": 0.9666029350298659,
+   "Recent sales (lags & averages)": 0.21318814164489816,
+   "Momentum & trend": 0.012190985875490251,
+   "Season effect": 0.08746496771165999,
+   "Festivals": 0.004251774671701218,
+   "Product traits": 0.20988239781764828,
+   "Forecast horizon": 0.000692048110697154,
+   "Store & category activity": 0.0024579856648759956,
+   "_rows": 11941
+  },
+  "Post-Monsoon": {
+   "Long-run demand level": 0.9475897638442465,
+   "Recent sales (lags & averages)": 0.21308512262643026,
+   "Momentum & trend": 0.008040989209429934,
+   "Season effect": 0.09385742500363001,
+   "Festivals": 0.002382556661728065,
+   "Product traits": 0.21362348386829358,
+   "Forecast horizon": 0.0006034589392943033,
+   "Store & category activity": 0.0017251308886915607,
+   "_rows": 4712
+  }
+ },
+ "by_category": {
+  "Analgesic/Antipyretic": {
+   "Long-run demand level": 0.8383989938673428,
+   "Recent sales (lags & averages)": 0.2183455647767458,
+   "Momentum & trend": 0.0091645759645059,
+   "Season effect": 0.06653659950508087,
+   "Festivals": 0.004738351653674869,
+   "Product traits": 0.04600041977174921,
+   "Forecast horizon": 0.0006690839431496355,
+   "Store & category activity": 0.0012050937488691,
+   "_rows": 655
+  },
+  "Anesthetic": {
+   "Long-run demand level": 1.4720944090292465,
+   "Recent sales (lags & averages)": 0.30623560115794435,
+   "Momentum & trend": 0.010292144941603003,
+   "Season effect": 0.07159489275843585,
+   "Festivals": 0.002300993213540287,
+   "Product traits": 0.2863544988074653,
+   "Forecast horizon": 0.000735704882632257,
+   "Store & category activity": 0.003992760678268851,
+   "_rows": 578
+  },
+  "Antibiotic": {
+   "Long-run demand level": 0.7183588442649306,
+   "Recent sales (lags & averages)": 0.19287932169616784,
+   "Momentum & trend": 0.012137834206816113,
+   "Season effect": 0.10834454243143272,
+   "Festivals": 0.0026620860111019663,
+   "Product traits": 0.05014368012141415,
+   "Forecast horizon": 0.0005342621157134632,
+   "Store & category activity": 0.0010956119988056925,
+   "_rows": 3518
+  },
+  "Anticoagulant": {
+   "Long-run demand level": 0.7699445306191046,
+   "Recent sales (lags & averages)": 0.23871681320567403,
+   "Momentum & trend": 0.008700718270119978,
+   "Season effect": 0.10365413981857273,
+   "Festivals": 0.009042437504176633,
+   "Product traits": 0.3398552222311264,
+   "Forecast horizon": 0.001055235445855942,
+   "Store & category activity": 0.012668459476262797,
+   "_rows": 100
+  },
+  "Antidiabetic": {
+   "Long-run demand level": 0.3682828147681698,
+   "Recent sales (lags & averages)": 0.08504014137862408,
+   "Momentum & trend": 0.012934197323910445,
+   "Season effect": 0.0799556517763348,
+   "Festivals": 0.00492681984850982,
+   "Product traits": 0.11125016044914678,
+   "Forecast horizon": 0.0014047515427492302,
+   "Store & category activity": 0.007734194899668726,
+   "_rows": 676
+  },
+  "Antidote/Emergency": {
+   "Long-run demand level": 1.5221360887569766,
+   "Recent sales (lags & averages)": 0.31213397668981513,
+   "Momentum & trend": 0.01332961706814557,
+   "Season effect": 0.07726166052009645,
+   "Festivals": 0.006039899634448328,
+   "Product traits": 0.33745442649910834,
+   "Forecast horizon": 0.0009386915625418193,
+   "Store & category activity": 0.0037674271437875767,
+   "_rows": 422
+  },
+  "Antiepileptic": {
+   "Long-run demand level": 0.7790970783043759,
+   "Recent sales (lags & averages)": 0.11916423203480668,
+   "Momentum & trend": 0.013335827557613757,
+   "Season effect": 0.05169925650353543,
+   "Festivals": 0.003028936436224322,
+   "Product traits": 0.2867089862031153,
+   "Forecast horizon": 0.0010863137610219531,
+   "Store & category activity": 0.0015927477964773225,
+   "_rows": 268
+  },
+  "Antifungal": {
+   "Long-run demand level": 0.9278000815206597,
+   "Recent sales (lags & averages)": 0.2333781950451208,
+   "Momentum & trend": 0.016409853045113994,
+   "Season effect": 0.1184348390127414,
+   "Festivals": 0.004407321559517591,
+   "Product traits": 0.15999568527769964,
+   "Forecast horizon": 0.000702241021517079,
+   "Store & category activity": 0.0027716049742179216,
+   "_rows": 681
+  },
+  "Antihistamine/Allergy": {
+   "Long-run demand level": 0.5829610281638709,
+   "Recent sales (lags & averages)": 0.11950162479537875,
+   "Momentum & trend": 0.00740139031734697,
+   "Season effect": 0.11471171013229746,
+   "Festivals": 0.0031005064688474754,
+   "Product traits": 0.12495819377135993,
+   "Forecast horizon": 0.0008012315847093634,
+   "Store & category activity": 0.0012964725300464233,
+   "_rows": 467
+  },
+  "Antimalarial": {
+   "Long-run demand level": 0.5563327974784665,
+   "Recent sales (lags & averages)": 0.15717197120849216,
+   "Momentum & trend": 0.010944015248411381,
+   "Season effect": 0.11184164890838537,
+   "Festivals": 0.0017080136001056628,
+   "Product traits": 0.09806985759667372,
+   "Forecast horizon": 0.0004099341862845607,
+   "Store & category activity": 0.001327005216946458,
+   "_rows": 795
+  },
+  "Antineoplastic (Oncology)": {
+   "Long-run demand level": 2.082174388121773,
+   "Recent sales (lags & averages)": 0.38982685632227054,
+   "Momentum & trend": 0.01208920729051206,
+   "Season effect": 0.08901022581069029,
+   "Festivals": 0.0043827492305751154,
+   "Product traits": 0.8381242444357448,
+   "Forecast horizon": 0.0008908385729746073,
+   "Store & category activity": 0.001423292989060947,
+   "_rows": 3427
+  },
+  "Antiretroviral (ART Program)": {
+   "Long-run demand level": 1.4215073738898731,
+   "Recent sales (lags & averages)": 0.3325408267693394,
+   "Momentum & trend": 0.024870758976765096,
+   "Season effect": 0.10347407134341154,
+   "Festivals": 0.006036813056935813,
+   "Product traits": 0.39268437774496595,
+   "Forecast horizon": 0.0013317252495571108,
+   "Store & category activity": 0.005942262049283881,
+   "_rows": 1843
+  },
+  "Antiseptic/Disinfectant": {
+   "Long-run demand level": 0.8134480426234246,
+   "Recent sales (lags & averages)": 0.18447329502446586,
+   "Momentum & trend": 0.00880868360319826,
+   "Season effect": 0.13453965987627944,
+   "Festivals": 0.00296933107108191,
+   "Product traits": 0.07028970605940585,
+   "Forecast horizon": 0.000508153562631183,
+   "Store & category activity": 0.0015193584154775393,
+   "_rows": 387
+  },
+  "Antitubercular": {
+   "Long-run demand level": 0.6305966087917719,
+   "Recent sales (lags & averages)": 0.1634847739920954,
+   "Momentum & trend": 0.012162269049602199,
+   "Season effect": 0.06739223759626232,
+   "Festivals": 0.003983806237895098,
+   "Product traits": 0.19632102937191828,
+   "Forecast horizon": 0.0007254005680604476,
+   "Store & category activity": 0.004922945158452623,
+   "_rows": 90
+  },
+  "Antiviral": {
+   "Long-run demand level": 0.5192580278623536,
+   "Recent sales (lags & averages)": 0.148182140535456,
+   "Momentum & trend": 0.010495098340961516,
+   "Season effect": 0.05564320652657698,
+   "Festivals": 0.0022548650179851078,
+   "Product traits": 0.05321527082177042,
+   "Forecast horizon": 0.0006153374527264195,
+   "Store & category activity": 0.002135660336701872,
+   "_rows": 289
+  },
+  "Blood Product/Coagulation": {
+   "Long-run demand level": 1.9040685172553133,
+   "Recent sales (lags & averages)": 0.38338544001218205,
+   "Momentum & trend": 0.011177388567660679,
+   "Season effect": 0.0953820637163787,
+   "Festivals": 0.004828925379309174,
+   "Product traits": 0.7469027796081801,
+   "Forecast horizon": 0.0008160935833956273,
+   "Store & category activity": 0.005323194628063605,
+   "_rows": 1056
+  },
+  "Cardiac/Antihypertensive": {
+   "Long-run demand level": 0.8306422862310822,
+   "Recent sales (lags & averages)": 0.15030198534466888,
+   "Momentum & trend": 0.007736389546305699,
+   "Season effect": 0.06328630809106527,
+   "Festivals": 0.004087189387003201,
+   "Product traits": 0.26460939245705983,
+   "Forecast horizon": 0.0009651296222613616,
+   "Store & category activity": 0.0017758199299166008,
+   "_rows": 2187
+  },
+  "Dermatological": {
+   "Long-run demand level": 0.28209452634090104,
+   "Recent sales (lags & averages)": 0.08369144947645604,
+   "Momentum & trend": 0.00679118272697402,
+   "Season effect": 0.07336376616065635,
+   "Festivals": 0.003619535016170286,
+   "Product traits": 0.09978967253704762,
+   "Forecast horizon": 0.0005012398754326962,
+   "Store & category activity": 0.00145887888785502,
+   "_rows": 185
+  },
+  "Diagnostic/Contrast Agent": {
+   "Long-run demand level": 1.8516916977317248,
+   "Recent sales (lags & averages)": 0.35153559102401216,
+   "Momentum & trend": 0.01441962452515202,
+   "Season effect": 0.07850047281911376,
+   "Festivals": 0.01738803938333015,
+   "Product traits": 0.5230014136688231,
+   "Forecast horizon": 0.0010811237100949488,
+   "Store & category activity": 0.01716862738583934,
+   "_rows": 204
+  },
+  "Endocrine/Metabolic": {
+   "Long-run demand level": 0.7846154816102089,
+   "Recent sales (lags & averages)": 0.1185387304831874,
+   "Momentum & trend": 0.008936506689024572,
+   "Season effect": 0.0769123091855292,
+   "Festivals": 0.004383907266559641,
+   "Product traits": 0.2521726692343762,
+   "Forecast horizon": 0.00073598526145089,
+   "Store & category activity": 0.0011814042018849923,
+   "_rows": 385
+  },
+  "Gastrointestinal": {
+   "Long-run demand level": 0.5950706777749543,
+   "Recent sales (lags & averages)": 0.13722144526982288,
+   "Momentum & trend": 0.007589495243366959,
+   "Season effect": 0.06283296238189309,
+   "Festivals": 0.003163549301057624,
+   "Product traits": 0.08043088566180244,
+   "Forecast horizon": 0.000320354776679448,
+   "Store & category activity": 0.002291353649762943,
+   "_rows": 1809
+  },
+  "General/Other": {
+   "Long-run demand level": 0.7235073723006892,
+   "Recent sales (lags & averages)": 0.18930221203576433,
+   "Momentum & trend": 0.009632930778761359,
+   "Season effect": 0.052627726265951344,
+   "Festivals": 0.0046293421538314145,
+   "Product traits": 0.048379744547806636,
+   "Forecast horizon": 0.0005493317256248536,
+   "Store & category activity": 0.0010806629420754964,
+   "_rows": 12468
+  },
+  "Hormone/Endocrine": {
+   "Long-run demand level": 0.7274675091092939,
+   "Recent sales (lags & averages)": 0.13925822069691618,
+   "Momentum & trend": 0.007142987083532877,
+   "Season effect": 0.053655072706519424,
+   "Festivals": 0.004190217361567697,
+   "Product traits": 0.1403337115920803,
+   "Forecast horizon": 0.000944563561105449,
+   "Store & category activity": 0.001552943655108414,
+   "_rows": 658
+  },
+  "Immunosuppressant": {
+   "Long-run demand level": 0.6170770700891459,
+   "Recent sales (lags & averages)": 0.12601091445610235,
+   "Momentum & trend": 0.026987785828999123,
+   "Season effect": 0.09474051631367751,
+   "Festivals": 0.004147390879341667,
+   "Product traits": 0.29820350932768697,
+   "Forecast horizon": 0.0008514809785712384,
+   "Store & category activity": 0.004253869084938587,
+   "_rows": 287
+  },
+  "Muscle Relaxant": {
+   "Long-run demand level": 1.6045618567844333,
+   "Recent sales (lags & averages)": 0.3106252220945211,
+   "Momentum & trend": 0.014839826683479865,
+   "Season effect": 0.08338666916181126,
+   "Festivals": 0.007481297715533704,
+   "Product traits": 0.4116688879272867,
+   "Forecast horizon": 0.0009952073876509833,
+   "Store & category activity": 0.006169722612890875,
+   "_rows": 192
+  },
+  "NSAID": {
+   "Long-run demand level": 0.6530331723193152,
+   "Recent sales (lags & averages)": 0.13407806304513328,
+   "Momentum & trend": 0.007287630074652497,
+   "Season effect": 0.05729104410995225,
+   "Festivals": 0.003549014286143982,
+   "Product traits": 0.04236157566751219,
+   "Forecast horizon": 0.0004074336541209785,
+   "Store & category activity": 0.001060124634537068,
+   "_rows": 762
+  },
+  "Neuro/Psychiatric": {
+   "Long-run demand level": 0.6651827919124258,
+   "Recent sales (lags & averages)": 0.11305458192328864,
+   "Momentum & trend": 0.010396433840368166,
+   "Season effect": 0.06773846054960787,
+   "Festivals": 0.0031375302806410607,
+   "Product traits": 0.2014007441058422,
+   "Forecast horizon": 0.001239121891149219,
+   "Store & category activity": 0.0015519438887759765,
+   "_rows": 1132
+  },
+  "Ophthalmic": {
+   "Long-run demand level": 0.7518595000210828,
+   "Recent sales (lags & averages)": 0.20060950181175174,
+   "Momentum & trend": 0.007401321248052585,
+   "Season effect": 0.07391416393263418,
+   "Festivals": 0.006956670111638673,
+   "Product traits": 0.11124308951916784,
+   "Forecast horizon": 0.00038421052952688833,
+   "Store & category activity": 0.004408615763355611,
+   "_rows": 165
+  },
+  "Opioid Analgesic": {
+   "Long-run demand level": 1.8418399665840692,
+   "Recent sales (lags & averages)": 0.348588883994443,
+   "Momentum & trend": 0.01590552188359253,
+   "Season effect": 0.09349404478513332,
+   "Festivals": 0.009533654313782367,
+   "Product traits": 0.33491784451345114,
+   "Forecast horizon": 0.0009049689375329607,
+   "Store & category activity": 0.011428231972870203,
+   "_rows": 187
+  },
+  "Reproductive/Hormonal Health": {
+   "Long-run demand level": 1.9245764049687346,
+   "Recent sales (lags & averages)": 0.3719992109494593,
+   "Momentum & trend": 0.01837589006409032,
+   "Season effect": 0.08890823653038407,
+   "Festivals": 0.007820498941760769,
+   "Product traits": 0.49383235762282496,
+   "Forecast horizon": 0.0009242215394500902,
+   "Store & category activity": 0.00669376961706451,
+   "_rows": 518
+  },
+  "Respiratory": {
+   "Long-run demand level": 0.49713449912395064,
+   "Recent sales (lags & averages)": 0.11149181842706614,
+   "Momentum & trend": 0.011244450842268827,
+   "Season effect": 0.1107931377927834,
+   "Festivals": 0.0029455393400060776,
+   "Product traits": 0.13680127463807548,
+   "Forecast horizon": 0.0008572723964357397,
+   "Store & category activity": 0.003489782224381698,
+   "_rows": 662
+  },
+  "Vaccine/Immunological": {
+   "Long-run demand level": 1.6145318019207244,
+   "Recent sales (lags & averages)": 0.32232863366811193,
+   "Momentum & trend": 0.009978226913935524,
+   "Season effect": 0.08419601068153258,
+   "Festivals": 0.002447891051230402,
+   "Product traits": 0.3065811871920968,
+   "Forecast horizon": 0.0008558260407102222,
+   "Store & category activity": 0.0013637695467414242,
+   "_rows": 1001
+  },
+  "Vitamin/Supplement": {
+   "Long-run demand level": 0.6285023110079042,
+   "Recent sales (lags & averages)": 0.1357922315797054,
+   "Momentum & trend": 0.008222636216040176,
+   "Season effect": 0.06395394601409336,
+   "Festivals": 0.0030015071529587815,
+   "Product traits": 0.062248596693628165,
+   "Forecast horizon": 0.0003728733828489169,
+   "Store & category activity": 0.0023343785912892474,
+   "_rows": 1946
+  }
+ },
+ "top_features": [
+  {
+   "feature": "hist_mean",
+   "group": "Long-run demand level",
+   "mean_abs": 0.9498056769371033
+  },
+  {
+   "feature": "ma_12",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.18539857864379883
+  },
+  {
+   "feature": "category_code",
+   "group": "Product traits",
+   "mean_abs": 0.1805845946073532
+  },
+  {
+   "feature": "seasonal_naive",
+   "group": "Season effect",
+   "mean_abs": 0.026765789836645126
+  },
+  {
+   "feature": "woy_cos",
+   "group": "Season effect",
+   "mean_abs": 0.025820715352892876
+  },
+  {
+   "feature": "rx_share",
+   "group": "Product traits",
+   "mean_abs": 0.02553490921854973
+  },
+  {
+   "feature": "log_price",
+   "group": "Product traits",
+   "mean_abs": 0.023118993267416954
+  },
+  {
+   "feature": "woy_sin",
+   "group": "Season effect",
+   "mean_abs": 0.01768866553902626
+  },
+  {
+   "feature": "ma_8",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.014169714413583279
+  },
+  {
+   "feature": "target_med_season_idx",
+   "group": "Season effect",
+   "mean_abs": 0.012593613006174564
+  },
+  {
+   "feature": "form_code",
+   "group": "Product traits",
+   "mean_abs": 0.012323460541665554
+  },
+  {
+   "feature": "season_code",
+   "group": "Season effect",
+   "mean_abs": 0.012056492269039154
+  },
+  {
+   "feature": "momentum",
+   "group": "Momentum & trend",
+   "mean_abs": 0.011038972064852715
+  },
+  {
+   "feature": "std_8",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.010341658256947994
+  },
+  {
+   "feature": "target_cat_season_idx",
+   "group": "Season effect",
+   "mean_abs": 0.009876539930701256
+  },
+  {
+   "feature": "month",
+   "group": "Season effect",
+   "mean_abs": 0.009550699964165688
+  },
+  {
+   "feature": "deseason_level",
+   "group": "Long-run demand level",
+   "mean_abs": 0.008514869958162308
+  },
+  {
+   "feature": "nz_8",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.007474435959011316
+  },
+  {
+   "feature": "season_shift",
+   "group": "Season effect",
+   "mean_abs": 0.0064149643294513226
+  },
+  {
+   "feature": "weeks_since_sale",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.004976901225745678
+  },
+  {
+   "feature": "recent_season_idx",
+   "group": "Season effect",
+   "mean_abs": 0.003882622579112649
+  },
+  {
+   "feature": "ema",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.0030316931661218405
+  },
+  {
+   "feature": "fest_vishu",
+   "group": "Festivals",
+   "mean_abs": 0.0025298180989921093
+  },
+  {
+   "feature": "cat_momentum",
+   "group": "Store & category activity",
+   "mean_abs": 0.0020903474651277065
+  },
+  {
+   "feature": "fest_onam",
+   "group": "Festivals",
+   "mean_abs": 0.001527731423266232
+  },
+  {
+   "feature": "ma_4",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.0010991079034283757
+  },
+  {
+   "feature": "h",
+   "group": "Forecast horizon",
+   "mean_abs": 0.0007059956551529467
+  },
+  {
+   "feature": "fest_xmas",
+   "group": "Festivals",
+   "mean_abs": 0.0006580757908523083
+  },
+  {
+   "feature": "store_momentum",
+   "group": "Store & category activity",
+   "mean_abs": 0.0004905371461063623
+  },
+  {
+   "feature": "lag_4",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.00028475269209593534
+  },
+  {
+   "feature": "lag_1",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.00027264346135780215
+  },
+  {
+   "feature": "lag_2",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 0.00012046179472235963
+  },
+  {
+   "feature": "lag_3",
+   "group": "Recent sales (lags & averages)",
+   "mean_abs": 8.184300531866029e-05
+  }
+ ],
+ "sample_rows": 40000,
+ "forecast_rows": 5088
+}

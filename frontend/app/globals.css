@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* ── Design tokens ─────────────────────────────────────────────────────────
+   Light, high-contrast, warm-neutral surfaces. Brand = deep pine.
+   Chart colours follow the validated categorical / diverging palette.        */
+:root {
+  color-scheme: light;
+  --page: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #fbfaf7;
+  --surface-sunken: #f1f0eb;
+  --ink: #0b0b0b;
+  --ink-2: #3d3c39;
+  --ink-3: #6b6a65;
+  --muted: #898781;
+  --hairline: rgba(11, 11, 11, 0.08);
+  --hairline-strong: rgba(11, 11, 11, 0.14);
+  --grid: #e9e8e2;
+  --axis: #c3c2b7;
+
+  --brand: #0e5c4f;
+  --brand-ink: #083d34;
+  --brand-wash: #e7f1ee;
+  --brand-soft: #cfe5df;
+
+  /* chart series (validated categorical order) */
+  --s1: #2a78d6;  /* blue */
+  --s2: #eb6834;  /* orange */
+  --s3: #1baf7a;  /* aqua */
+  --s4: #eda100;  /* yellow */
+  --s5: #e87ba4;  /* magenta */
+  --s6: #008300;  /* green */
+  --s7: #4a3aa7;  /* violet */
+
+  /* status (reserved, always paired with icon + label) */
+  --good: #0ca30c;
+  --good-ink: #006300;
+  --warn: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-sunken: var(--surface-sunken);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-muted: var(--muted);
+  --color-hairline: var(--hairline);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-wash: var(--brand-wash);
+  --color-brand-soft: var(--brand-soft);
+  --color-good: var(--good-ink);
+  --color-critical: var(--critical);
+  --font-sans: var(--font-geist), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html, body {
+  background: var(--page);
+  color: var(--ink);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--brand-soft); color: var(--brand-ink); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  box-shadow: 0 1px 0 rgba(11, 11, 11, 0.02), 0 12px 32px -18px rgba(11, 11, 11, 0.12);
+}
+
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Grid/flex children must be allowed to shrink below their content (charts, long text) */
+.grid > *, main { min-width: 0; }
+.recharts-responsive-container { min-width: 0; }
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.focus-ring:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Recharts polish */
+.recharts-cartesian-grid line { stroke: var(--grid); }
+.recharts-text { fill: var(--muted); font-size: 11px; }
+.recharts-surface:focus, .recharts-wrapper:focus, .recharts-sector:focus { outline: none; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@keyframes shimmer { 0% { background-position: -400px 0; } 100% { background-position: 400px 0; } }
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-sunken) 0%, #f8f7f3 50%, var(--surface-sunken) 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 12px;
+}
+
+input[type="range"] { accent-color: var(--brand); }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .skeleton { animation: none; }
+}

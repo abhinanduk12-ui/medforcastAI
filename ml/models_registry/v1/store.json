@@ -1,0 +1,215 @@
+{
+ "generated_at": "2026-10-01T19:49:41",
+ "data": {
+  "transactions": 32000,
+  "medicines": 424,
+  "medicines_sold": 422,
+  "categories": 33,
+  "suppliers": 15,
+  "start": "2025-08-01",
+  "end": "2026-08-31",
+  "weeks": 56,
+  "units": 184363,
+  "revenue": 16510279.8,
+  "rx_share": 0.57353125,
+  "forecast_start": "2026-08-31",
+  "forecast_end": "2026-11-16"
+ },
+ "monthly": [
+  {
+   "month": "2025-08",
+   "units": 14886,
+   "revenue": 1305453.98,
+   "tx": 2692
+  },
+  {
+   "month": "2025-09",
+   "units": 15838,
+   "revenue": 1348967.93,
+   "tx": 2752
+  },
+  {
+   "month": "2025-10",
+   "units": 13810,
+   "revenue": 1154905.99,
+   "tx": 2315
+  },
+  {
+   "month": "2025-11",
+   "units": 13071,
+   "revenue": 1200492.37,
+   "tx": 2125
+  },
+  {
+   "month": "2025-12",
+   "units": 13934,
+   "revenue": 1208001.83,
+   "tx": 2460
+  },
+  {
+   "month": "2026-01",
+   "units": 14215,
+   "revenue": 1249893.32,
+   "tx": 2457
+  },
+  {
+   "month": "2026-02",
+   "units": 12365,
+   "revenue": 1135741.22,
+   "tx": 2074
+  },
+  {
+   "month": "2026-03",
+   "units": 13191,
+   "revenue": 1249415.44,
+   "tx": 2258
+  },
+  {
+   "month": "2026-04",
+   "units": 13875,
+   "revenue": 1187658.94,
+   "tx": 2420
+  },
+  {
+   "month": "2026-05",
+   "units": 14448,
+   "revenue": 1362159.06,
+   "tx": 2442
+  },
+  {
+   "month": "2026-06",
+   "units": 14912,
+   "revenue": 1327589.73,
+   "tx": 2602
+  },
+  {
+   "month": "2026-07",
+   "units": 15352,
+   "revenue": 1447252.62,
+   "tx": 2695
+  },
+  {
+   "month": "2026-08",
+   "units": 14466,
+   "revenue": 1332747.37,
+   "tx": 2708
+  }
+ ],
+ "dow": [
+  77.54,
+  82.23,
+  80.38,
+  80.7,
+  82.25,
+  79.88,
+  82.7
+ ],
+ "hour": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1683,
+  2665,
+  3003,
+  2450,
+  1911,
+  1639,
+  1598,
+  1657,
+  2178,
+  2866,
+  3251,
+  3089,
+  2327,
+  1683,
+  0,
+  0
+ ],
+ "seasons": {
+  "Winter": {
+   "months": "Dec \u2013 Feb",
+   "drivers": "Cool dry spell, festive OTC spike at Christmas/New Year, respiratory flare-ups",
+   "month_list": [
+    12,
+    1,
+    2
+   ]
+  },
+  "Summer": {
+   "months": "Mar \u2013 May",
+   "drivers": "Heat, dehydration and water-borne GI illness; vitamin & ORS demand; Vishu festival",
+   "month_list": [
+    3,
+    4,
+    5
+   ]
+  },
+  "Monsoon": {
+   "months": "Jun \u2013 Sep",
+   "drivers": "Humidity, infections, fevers, vector-borne disease (dengue/malaria), fungal skin issues; Onam festival",
+   "month_list": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  "Post-Monsoon": {
+   "months": "Oct \u2013 Nov",
+   "drivers": "North-east monsoon tail, lingering respiratory & allergy cases",
+   "month_list": [
+    10,
+    11
+   ]
+  }
+ },
+ "festivals": {
+  "Onam": [
+   [
+    "2025-08-31",
+    "2025-09-10"
+   ],
+   [
+    "2026-08-21",
+    "2026-08-31"
+   ],
+   [
+    "2027-09-07",
+    "2027-09-17"
+   ]
+  ],
+  "Vishu": [
+   [
+    "2025-04-11",
+    "2025-04-18"
+   ],
+   [
+    "2026-04-11",
+    "2026-04-18"
+   ],
+   [
+    "2027-04-11",
+    "2027-04-18"
+   ]
+  ],
+  "Christmas/New Year": [
+   [
+    "2024-12-20",
+    "2025-01-02"
+   ],
+   [
+    "2025-12-20",
+    "2026-01-02"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-02"
+   ]
+  ]
+ }
+}

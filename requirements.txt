@@ -1,0 +1,9 @@
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+xgboost>=2.1
+torch>=2.3          # GPU (NVIDIA): pip install torch --index-url https://download.pytorch.org/whl/cu130
+                    # CPU only:     pip install torch --index-url https://download.pytorch.org/whl/cpu
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pypdf>=4.0          # DHS Kerala daily report parsing (early-warning signals)

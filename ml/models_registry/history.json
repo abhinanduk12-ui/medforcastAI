@@ -1,0 +1,28 @@
+[
+ {
+  "action": "bootstrap",
+  "version": "v1",
+  "previous": null,
+  "at": "2026-10-01T17:05:39+00:00",
+  "user": "system",
+  "reason": "Registered existing ml/artifacts",
+  "override": false
+ },
+ {
+  "action": "promote",
+  "version": "v2",
+  "previous": "v1",
+  "at": "2026-10-04T08:00:09+00:00",
+  "user": "cli",
+  "reason": "Smooth seasonal-curve features: better on every holdout metric (item 0.664 vs 0.668, category-week 0.2105 vs 0.2151), smaller season-boundary step",
+  "override": false,
+  "gate": {
+   "verdict": "pass",
+   "method": "same_window",
+   "deltas": {
+    "item_week_wape": -0.0033468340546828346,
+    "category_week_wape": -0.004510492636196628
+   }
+  }
+ }
+]

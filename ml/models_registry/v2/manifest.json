@@ -1,0 +1,29 @@
+{
+ "version": "v2",
+ "status": "ready",
+ "created_at": "2026-10-04T07:59:57+00:00",
+ "code_hash": "47a772bff1459312",
+ "source": "cli",
+ "registered_from": "C:\\Users\\faris\\AppData\\Local\\Temp\\claude\\c--Users-faris-Desktop-uk\\fbdab793-3eee-4973-a797-34b4556698f4\\scratchpad\\candidate_v2",
+ "note": null,
+ "data_sources": [],
+ "finished_at": "2026-10-04T07:59:57+00:00",
+ "holdout_window": [
+  "2026-06-08",
+  "2026-08-24"
+ ],
+ "artifact_hashes": {
+  "store.json": "a8431b2092becf2c472ad4f56052f5178b033d8db4ec0afab32254111d53e91e",
+  "metrics.json": "776205ac28ae434fdf8153c82b972536150023ff15cb537bb8c80c326833af3d",
+  "medicines.csv": "4ab687a85ff1a3cde90811e15d1e14f53217073873d351b531eb56c97607d8e8",
+  "weekly_history.csv": "21bbfe95b5864f90bdd0d60abcda5d1fd0dbab98b3c24e541a5225b23d9f3b83",
+  "forecast.csv": "41244c2bff40610e5123e0c5860eae548780736592b41fda2bed28f05a9d0765",
+  "backtest.csv": "8cc854e2333dfbbd9873a8df004433d78c2878db64bb364c50a5422891f058be",
+  "med_season_index.csv": "2091debb6df52018fa297791e11b8bf18271dd5bdaf611db260af6795fcc29c8",
+  "cat_season_index.csv": "ade0db5bd2b062ce06898701f3b4d6aae8e1f0506fb540bc27d37bbf4c293b80",
+  "festival_impact.csv": "74a83cf9f1017e9979849a68dd2e05f05fcb2ed337cfeb8c8513754fd727eb62",
+  "feature_importance.csv": "8c23e92c67d810edf5b2cfbf2654dfa9d0b9e12cf25bf09567e8c67fd92196c7"
+ },
+ "promoted_at": "2026-10-04T08:00:09+00:00",
+ "promoted_by": "cli"
+}

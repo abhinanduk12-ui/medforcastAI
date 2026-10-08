@@ -1,0 +1,34 @@
+{
+ "version": "v1",
+ "status": "ready",
+ "created_at": "2026-10-01T17:05:39+00:00",
+ "code_hash": "10154e43a04445f2",
+ "source": "bootstrap",
+ "registered_from": "C:\\Users\\faris\\Desktop\\uk\\ml\\artifacts",
+ "note": "Initial model copied from ml/artifacts",
+ "data_sources": [
+  {
+   "kind": "base",
+   "label": "Base history (data/raw/pharma_dataset.xlsx)",
+   "path": "data\\raw\\pharma_dataset.xlsx",
+   "sha256": "f1a75dd5b30c539b1a2f39d1140a2f9064b630711d53e2cbc464f3b3a64c3c69"
+  }
+ ],
+ "finished_at": "2026-10-01T17:05:39+00:00",
+ "holdout_window": [
+  "2026-06-08",
+  "2026-08-24"
+ ],
+ "artifact_hashes": {
+  "store.json": "c937ceada08890c35989e0ee890e8b30f4ef298cdafa4c1a980c9b66e634b528",
+  "metrics.json": "9cc69ef39d6136180860a3db3d1abb48326b87e38d9d7dacbb9b913641842d3f",
+  "medicines.csv": "4ab687a85ff1a3cde90811e15d1e14f53217073873d351b531eb56c97607d8e8",
+  "weekly_history.csv": "21bbfe95b5864f90bdd0d60abcda5d1fd0dbab98b3c24e541a5225b23d9f3b83",
+  "forecast.csv": "8069cecdcc5594c86f2d2e80292cffa8973b25842c2cafad1f095842a8efab42",
+  "backtest.csv": "c3c265b5765825ad09c0a8544c561b5632bae38ff4846ec96d9fc2e6125d0d87",
+  "med_season_index.csv": "2091debb6df52018fa297791e11b8bf18271dd5bdaf611db260af6795fcc29c8",
+  "cat_season_index.csv": "ade0db5bd2b062ce06898701f3b4d6aae8e1f0506fb540bc27d37bbf4c293b80",
+  "festival_impact.csv": "8be45980e4040b143249b64bc33a0aabe5da7a9fbfd58b65580fd157838945ab",
+  "feature_importance.csv": "b816be1f074f48a96a054d0f73fb28bfa140ea56f07a70327aca8d16a1dff5a7"
+ }
+}

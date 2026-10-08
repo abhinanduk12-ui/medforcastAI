@@ -1,0 +1,12 @@
+{
+ "key": {
+  "path": "/Users/abhinand/Downloads/uk/data/raw/pharma_dataset.xlsx",
+  "size": 3176708,
+  "mtime_ns": 1790861227000000000
+ },
+ "sha256": "f1a75dd5b30c539b1a2f39d1140a2f9064b630711d53e2cbc464f3b3a64c3c69",
+ "rows": 32000,
+ "start": "2025-08-01",
+ "end": "2026-08-31",
+ "built_at": "2026-10-07T14:08:48+00:00"
+}
